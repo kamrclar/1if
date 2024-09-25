@@ -16,5 +16,6 @@ public class Person {
     public void halloSagen(){
         System.out.println("Hi, my name is "+name);
         System.out.println("and I am "+age );
+        System.out.println("and I am "+age );
     }
 }
