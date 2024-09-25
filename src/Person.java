@@ -1,19 +1,19 @@
 public class Person {
 
     //Attribute
-    private String name = "tobi";
-    private int age = 15;
+    private String name;
+    private int age;
 
     //Referenzen
 
     //Konstruktor
-    public Person() { // = "Peter"
-        helloSagen();
-        helloSagen(); //= 15
+    public Person(String name, int age) {
+       this.name = name;
+       this.age = age;
 
     }
     //Methoden
-    public void helloSagen(){
+    public void halloSagen(){
         System.out.println("Hi, my name is "+name);
         System.out.println("and I am "+age );
     }
